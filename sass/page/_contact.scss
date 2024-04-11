@@ -1,0 +1,77 @@
+.section-3-header {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+
+
+    .card-1 {
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .card-1-first-element {
+            background-color: $tertiary-bg-color;
+            padding: 25px;
+            border-radius: 3px;
+
+
+        }
+
+        .section-3-text {
+            font-size: 20px;
+        }
+
+        .section-3-number {
+            font-size: 25px;
+            color: $tertiary-font-color;
+        }
+    }
+}
+
+
+.section-3-body {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+    align-items: center;
+
+    .section-3-input-1 {
+        height: 60px;
+        width: 350px;
+        background-color: #EEF9FF;
+        border: none;
+        padding: 10px;
+        margin: 0px 2px 20px 2px;
+        font-size: 18px;
+    }
+
+    .section-3-input-2 {
+        width: 712px;
+        height: 60px;
+        background-color: #EEF9FF;
+        border: none;
+        padding: 10px;
+        font-size: 18px;
+
+    }
+
+    .section-3-input-3 {
+        background-color: #EEF9FF;
+        border: none;
+        padding: 10px;
+        margin-top: 20px;
+        font-size: 18px;
+
+    }
+
+    .section-3-button {
+        width: 712px;
+        height: 60px;
+        background-color: $tertiary-bg-color;
+        border: none;
+        margin-top: 20px;
+        font-size: 18px;
+        color: white;
+    }
+}

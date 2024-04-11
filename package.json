@@ -1,0 +1,17 @@
+{
+  
+  "name": "sccs",
+  "version": "1.0.0",
+  "main": "index.js", 
+  "description": "",
+  "author": "DevOops",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "devDependencies": {},
+ 
+  "license": "ISC"
+}

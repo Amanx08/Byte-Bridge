@@ -1,0 +1,41 @@
+.container-max-width {
+    max-width: $max-width;
+    margin: 0 auto;
+}
+
+.marquee-section-4 {
+    width: 100px;
+    height: 5px;
+    background-color: $tertiary-bg-color;
+    display: block;
+    margin: 10px 0px;
+    border-radius: 2px;
+
+    .marquee-inner {
+        height: 6px;
+        width: 8px;
+        background-color: white;
+        color: $secondary-font-color;
+    }
+}
+
+.button-blue {
+    margin-top: 30px;
+    padding: 12px 30px;
+    background-color: #06A3DA;
+    color: white;
+    border: none;
+}
+
+
+.container-primary-heading {
+    font-size: 20px;
+    font-weight: 700;
+    color:$tertiary-font-color ;
+
+}
+
+.container-secondary-heading {
+    font-size: 40px;
+    font-weight: 900;
+}
